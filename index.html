@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Docker Demo</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+    
+body {
+    background: #f4f6f9;
+    color: #333;
+}  
+
+.navbar {
+    background: #1e1e1e;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar h2{
+    font-weight: normal;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ui li {
+    cursor: pointer;
+}
+.hero {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #2563eb, #4f46e5);
+    color: white;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: #2563eb;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #e2e8f0;
+}
+
+
+.footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class = "navbar">
+    <h2>DockerApp</h2>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+</div>
+
+<div class="hero">
+    <div class="hero-content">
+        <h1>Welcome to Docker Deployment</h1>
+        <p>This webpage running inside the docker container and access from laptop and phone</p>
+        <button onclick="alert('Docker is running successfully!')">Get started</button>
+    </div>
+</div>
+
+<div class ="footer">
+     @ 2026 Docker web App | Local Devployment Deployment 
+</div>
+
+</body>
+</html>
